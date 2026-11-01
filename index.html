@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="보안 분석 및 침해사고 대응 포트폴리오">
+  <title>Security Analyst Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home">SECURITY<span>.</span></a>
+    <button class="menu-toggle" aria-label="메뉴 열기" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#about">소개</a><a href="#projects">프로젝트</a><a href="#experience">경험</a><a href="#skills">기술</a><a href="#contact">연락처</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="eyebrow"><span class="status-dot"></span> SECURITY ANALYST PORTFOLIO</div>
+      <p class="hero-kicker">침해사고 대응 · 디지털 포렌식 · 위협 헌팅</p>
+      <h1>위협의 흔적을 분석하고<br><span>맥락을 찾아내는</span> 보안 분석가</h1>
+      <p class="hero-desc">공격 흔적과 시스템 아티팩트를 바탕으로 사건의 흐름을 재구성하고, 분석 결과를 명확한 보고서로 전달하는 역량을 쌓고 있습니다.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#projects">프로젝트 보기 <span>↗</span></a>
+        <a class="button secondary" href="#contact">연락하기</a>
+      </div>
+      <div class="hero-meta"><span>BASE · SOUTH KOREA</span><span>FOCUS · CERT / DFIR / SOC</span></div>
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+    </section>
+
+    <section class="section intro-grid" id="about">
+      <div><p class="section-label">01 / ABOUT</p><h2>분석은 흔적을<br>연결하는 일이라고 생각합니다.</h2></div>
+      <div class="intro-copy">
+        <p>사이버보안을 전공하고 침해사고 대응 및 디지털 포렌식 실습, 보안 기술 리서치 경험을 쌓았습니다. 단편적인 이벤트를 나열하기보다 여러 아티팩트의 시간과 맥락을 연결해 상황을 이해하는 분석가를 지향합니다.</p>
+        <p class="muted">관심 분야: 침해사고 분석 · 보안관제 · 위협 헌팅 · 디지털 포렌식 · 취약점 분석</p>
+        <div class="stat-row">
+          <div><strong>4.19 / 4.5</strong><small>학부 성적</small></div>
+          <div><strong>5개월</strong><small>보안 기업 인턴십</small></div>
+          <div><strong>17기</strong><small>K-Shield Jr.</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading"><div><p class="section-label">02 / SELECTED WORK</p><h2>주요 프로젝트</h2></div><p class="muted">분석 과정과 판단 근거를 중심으로 정리했습니다.</p></div>
+      <div class="project-list">
+        <article class="project-card featured">
+          <div class="project-number">01</div>
+          <div class="project-content">
+            <div class="tags"><span>INCIDENT RESPONSE</span><span>DFIR</span><span>THREAT HUNTING</span></div>
+            <h3>K-Shield Jr. 침해사고 대응 및 분석</h3>
+            <p>병원 및 소프트웨어 공급망을 가정한 침해사고 시나리오에서 디지털 흔적을 분석하고, 위협 헌팅 결과와 대응 내용을 보고서로 정리한 팀 프로젝트.</p>
+            <ul><li>브라우저 및 시스템 아티팩트 기반 행위 흔적 분석</li><li>FTK Imager, Hindsight, Volatility 등을 활용한 증거 확인</li><li>분석 결과 정리 및 침해사고 보고서 작성</li></ul>
+            <div class="project-foot"><span>2026.09 · Threat Hunting & Reporting</span><a href="projects/kshield.html">프로젝트 상세 준비 중 ↗</a></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <div class="project-content">
+            <div class="tags"><span>WINDOWS</span><span>DETECTION</span></div>
+            <h3>Windows 보안 이벤트 수집 및 분석 실습</h3>
+            <p>Sysmon과 Atomic Red Team을 활용해 공격 행위를 재현하고, 생성된 이벤트를 확인하며 탐지 관점의 분석 경험을 쌓은 실습.</p>
+            <ul><li>Sysmon 이벤트 수집 및 로그 확인</li><li>Atomic Red Team 테스트 기반 행위 관찰</li><li>공격 단계와 관찰 가능한 이벤트 연결</li></ul>
+            <div class="project-foot"><span>개인 실습</span><a href="projects/windows-lab.html">프로젝트 상세 준비 중 ↗</a></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <div class="project-content">
+            <div class="tags"><span>SECURITY RESEARCH</span><span>VULNERABILITY</span></div>
+            <h3>취약점 및 AI 보안 기술 리서치</h3>
+            <p>보안 기업 인턴십에서 CVE 동향과 AI 서비스 보안 제품을 조사하고, 기술 및 제품 비교 내용을 문서와 발표 자료로 정리.</p>
+            <ul><li>AI 프롬프트 보안 제품 및 기술 조사</li><li>CVE 관련 기술 자료 및 보안 이슈 조사</li><li>조사 결과를 정기 보고 자료로 구조화</li></ul>
+            <div class="project-foot"><span>2025.08 – 2025.12 · 인턴십</span><a href="#experience">경험 보기 ↗</a></div>
+          </div>
+        </article>
+      </div>
+      <p class="notice">※ 프로젝트 상세 페이지는 분석 근거, 사용 도구, 본인 담당 범위, 결과물을 검토한 뒤 추가하세요. 공개가 제한된 자료와 실제 환경 정보는 게시하지 마세요.</p>
+    </section>
+
+    <section class="section split-section" id="experience">
+      <div><p class="section-label">03 / EXPERIENCE</p><h2>경험과 교육</h2></div>
+      <div class="timeline">
+        <div class="timeline-item"><time>2026.09</time><div><h3>K-Shield Jr. 17기 침해사고 대응 및 분석</h3><p>팀 프로젝트 · Threat Hunting / Reporting</p></div></div>
+        <div class="timeline-item"><time>2025.08 – 12</time><div><h3>WINS TechNet 인턴십</h3><p>기술전략 관련 조직 · AI 보안 제품 리서치 및 보안 기술 조사</p></div></div>
+        <div class="timeline-item"><time>2026.02</time><div><h3>대구대학교 사이버보안전공 졸업</h3><p>학점 4.19 / 4.5 · 학과 우수상</p></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading"><div><p class="section-label">04 / TECHNICAL SKILLS</p><h2>기술 및 도구</h2></div><p class="muted">실제 사용 경험과 학습 수준을 구분해 기재하세요.</p></div>
+      <div class="skill-grid">
+        <div class="skill-box"><h3>Digital Forensics</h3><p>FTK Imager · Volatility 3 · MFTECmd · Hindsight · Autopsy</p></div>
+        <div class="skill-box"><h3>Detection & Monitoring</h3><p>Wazuh · Sysmon · Windows Event Logs</p></div>
+        <div class="skill-box"><h3>Security Framework</h3><p>MITRE ATT&CK · CVE 분석 · 침해사고 대응 절차</p></div>
+        <div class="skill-box"><h3>Other</h3><p>Linux · 네트워크 기초 · 보고서 및 발표 자료 작성</p></div>
+      </div>
+    </section>
+
+    <section class="section credentials">
+      <div><p class="section-label">05 / CERTIFICATIONS</p><h2>자격 및 교육</h2></div>
+      <div class="credential-list">
+        <div><span>리눅스마스터 2급</span><small>취득</small></div>
+        <div><span>정보보안기사</span><small>필기 합격 · 실기 준비</small></div>
+        <div><span>정보처리기사</span><small>필기 합격 · 실기 준비</small></div>
+        <div><span>K-Shield Jr. 17기</span><small>침해사고 대응 및 분석 과정</small></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="section-label">06 / CONTACT</p>
+      <h2>함께 성장할 기회를<br>기다리고 있습니다.</h2>
+      <p class="muted">이메일과 GitHub 주소를 입력해 연락처를 완성하세요.</p>
+      <div class="contact-links"><a href="mailto:YOUR_EMAIL@example.com">이메일 ↗</a><a href="https://github.com/YOUR_GITHUB" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+    </section>
+  </main>
+  <footer><span>© <span id="year"></span> YOUR NAME</span><span>SECURITY ANALYST PORTFOLIO</span></footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>
