@@ -1,0 +1,266 @@
+
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Security Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Manrope:wght@400;600;700;800&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+<div class="wrap">
+
+<header>
+<a class="logo" href="#home">S / SECURITY.LOG</a>
+<button id="menu">☰</button>
+<nav id="nav">
+<a href="#about">About</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact ↗</a>
+</nav>
+</header>
+
+<main id="home">
+
+<section class="hero">
+<div>
+<small class="eyebrow">JUNIOR SECURITY ANALYST · PORTFOLIO</small>
+
+<h1>흔적을 분석하고,<br><em>위협의 맥락</em>을 찾습니다.</h1>
+
+<p class="lead">
+침해사고 대응과 보안관제 분야를 중심으로 로그와 아티팩트를 분석하고, 근거를 바탕으로 상황을 설명하는 보안 분석가를 지향합니다.
+</p>
+
+<a class="btn" href="#projects">프로젝트 보기 ↘</a>
+<span class="subbtn"><a href="#contact">연락하기</a></span>
+
+<p class="micro">BASED IN KOREA　·　OPEN TO SECURITY ROLES</p>
+</div>
+
+<!-- Terminal frame with profile photo -->
+<div class="console">
+<div class="bar">
+<i></i><i></i><i></i>
+<span>analyst@workstation:~</span>
+<b>LIVE</b>
+</div>
+
+<div class="console-photo">
+<img src="assets/profile.jpg" alt="Profile photo">
+</div>
+</div>
+
+</section>
+
+<div class="ticker">
+INCIDENT RESPONSE　✳　DIGITAL FORENSICS　✳　SECURITY MONITORING　✳　THREAT HUNTING　✳
+</div>
+
+<section id="about" class="split">
+<div>
+<small>01 — ABOUT</small>
+<h2>분석의 시작은<br>작은 흔적에서.</h2>
+</div>
+
+<div>
+<p class="statement">
+보안 이벤트를 단순히 확인하는 데서 멈추지 않고, <em>무엇이 발생했는지</em>를 증거와 흐름으로 설명하는 역량을 키우고 있습니다.
+</p>
+
+<div class="facts">
+<article>
+<small>EDUCATION</small>
+<b>대구대학교</b>
+<p>사이버보안 전공 · 2026.02 졸업</p>
+</article>
+
+<article>
+<small>FOCUS</small>
+<b>CERT · SOC · DFIR</b>
+<p>침해사고 대응, 보안관제, 디지털 포렌식</p>
+</article>
+
+<article>
+<small>APPROACH</small>
+<b>Evidence-driven</b>
+<p>로그 수집 · 타임라인 분석 · 결과 문서화</p>
+</article>
+</div>
+</div>
+</section>
+
+<section id="experience" class="split">
+<div>
+<small>02 — EXPERIENCE</small>
+<h2>경험으로 쌓은<br>분석의 기반.</h2>
+</div>
+
+<div class="timeline">
+<article>
+<time>2025.08 — 2025.12</time>
+<h3>윈스테크넷 · 인턴 <label>AI SECURITY RESEARCH</label></h3>
+<p>기술전략 및 분석 업무 지원. 생성형 AI 보안 제품과 프롬프트 보안 관련 기술·제품 동향을 조사하고, 보안 가이드라인 및 CVE 정보를 정리해 보고 자료를 작성했습니다.</p>
+<ul>
+<li>AI 보안 제품 및 경쟁 기술 조사·비교</li>
+<li>보안 가이드라인과 취약점 관련 자료 조사</li>
+<li>조사 결과를 PPT 및 문서 형태로 구조화</li>
+</ul>
+</article>
+
+<article>
+<time>2026.09</time>
+<h3>K-Shield Jr. 17기 <label>INCIDENT RESPONSE</label></h3>
+<p>침해사고 대응 및 분석 과정. 팀 프로젝트에서 Threat Hunting 및 분석 보고 업무를 담당했습니다.</p>
+<ul>
+<li>브라우저·시스템 아티팩트 기반 행위 흔적 분석</li>
+<li>수집 자료를 바탕으로 사건 흐름과 근거 정리</li>
+<li>분석 결과 및 대응 관점의 보고서 작성</li>
+</ul>
+</article>
+</div>
+</section>
+
+<section id="projects" class="split">
+<div>
+<small>03 — SELECTED PROJECTS</small>
+<h2>직접 구성하고<br>검증한 기록.</h2>
+<p class="muted">실습 환경에서 수행한 분석과 검증을 중심으로 정리했습니다.</p>
+</div>
+
+<div class="cards">
+<a class="card featured" href="projects/kshield.html">
+<small>01 / INCIDENT RESPONSE <b>↗</b></small>
+<div class="art forensic">
+<span>browser_history.db</span>
+<span>NTFS_TIMELINE.csv</span>
+<span>memory.raw</span>
+</div>
+<h3>공급망 침해 시나리오 기반 흔적 분석</h3>
+<p>브라우저·파일시스템·시스템 흔적을 연결해 공격 흐름을 재구성한 팀 프로젝트</p>
+<div class="tags">DFIR　 FTK Imager　 Volatility　 Hindsight</div>
+<footer>PROJECT DETAILS　→</footer>
+</a>
+
+<a class="card" href="projects/wazuh-lab.html">
+<small>02 / SECURITY MONITORING <b>↗</b></small>
+<div class="art monitor">
+<div></div><div></div><div></div><div></div><div></div>
+</div>
+<h3>Wazuh 기반 엔드포인트 모니터링 랩</h3>
+<p>Windows 이벤트 로그 수집과 탐지 검증을 위한 개인 실습 환경</p>
+<div class="tags">Wazuh　 Sysmon　 Windows 11</div>
+<footer>PROJECT DETAILS　→</footer>
+</a>
+
+<a class="card" href="projects/dfir-lab.html">
+<small>03 / DIGITAL FORENSICS <b>↗</b></small>
+<div class="art timelineart">│　│　│　│　│</div>
+<h3>Windows DFIR 및 행위 재현 실습</h3>
+<p>Sysmon과 Atomic Red Team을 활용한 이벤트 생성 및 아티팩트 분석</p>
+<div class="tags">Sysmon　 Atomic Red Team　 MFTECmd</div>
+<footer>PROJECT DETAILS　→</footer>
+</a>
+</div>
+</section>
+
+<section id="skills" class="split">
+<div>
+<small>04 — TOOLKIT</small>
+<h2>도구보다 중요한 건<br>활용의 맥락.</h2>
+</div>
+
+<div class="skilllist">
+<article>
+<small>FORENSICS</small>
+<div>
+<b>FTK Imager · Volatility 3 · Autopsy</b>
+<p>디스크·메모리 이미지 및 디지털 아티팩트 확인 실습</p>
+</div>
+</article>
+
+<article>
+<small>LOG ANALYSIS</small>
+<div>
+<b>Wazuh · Sysmon · MFTECmd</b>
+<p>이벤트 수집, 로그 확인, 파일시스템 타임라인 분석 실습</p>
+</div>
+</article>
+
+<article>
+<small>THREAT ANALYSIS</small>
+<div>
+<b>MITRE ATT&CK · CVE Research</b>
+<p>공격 기법과 취약점 정보 조사 및 분석 자료 정리</p>
+</div>
+</article>
+
+<article>
+<small>DOCUMENTATION</small>
+<div>
+<b>PowerPoint · Technical Writing</b>
+<p>조사·분석 결과를 보고서와 발표 자료로 구조화</p>
+</div>
+</article>
+</div>
+</section>
+
+<section class="split">
+<div>
+<small>05 — EDUCATION</small>
+<h2>Learning record.</h2>
+</div>
+
+<div class="skilllist">
+<article>
+<small>2026.02</small>
+<div>
+<b>대구대학교 · 사이버보안 전공 졸업</b>
+<p>학점 4.19 / 4.5 · 학과 우수상</p>
+</div>
+</article>
+
+<article>
+<small>2026.09</small>
+<div>
+<b>K-Shield Jr. 17기 · 침해사고 대응 및 분석</b>
+<p>Threat Hunting / Reporting</p>
+</div>
+</article>
+
+<article>
+<small>CERTIFICATES</small>
+<div>
+<b>리눅스마스터 2급 · 정보보안기사 필기 합격 · 정보처리기사 필기 합격</b>
+<p>최종 자격 취득 여부 및 발급 상태에 맞춰 업데이트하세요.</p>
+</div>
+</article>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<small>06 — CONTACT</small>
+<h2>함께 배우고,<br><em>더 깊이 분석하겠습니다.</em></h2>
+<p>보안관제 · CERT · 침해사고 대응 분야의 기회를 찾고 있습니다.</p>
+<a class="btn" href="mailto:YOUR_EMAIL@example.com">이메일 보내기 ↗</a>
+<p class="hint">YOUR_EMAIL@example.com을 본인 이메일 주소로 변경해 주세요.</p>
+</section>
+
+</main>
+
+<footer class="bottom">
+<span>SECURITY.LOG</span>
+<span>© 2026 Security Portfolio</span>
+<a href="#home">BACK TO TOP ↑</a>
+</footer>
+
+</div>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
